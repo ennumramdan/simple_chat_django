@@ -10,7 +10,8 @@
 In this directory and highly recommended in a Python virtual environment, run
 
 # Install dependencies
-pip install -r requirements/local.pip
+
+    $ pip install -r requirements/local.pip
 
 # Create the database tables and initial data
 we are using because we using django session that store at db but don't worry we using `sqlite`.

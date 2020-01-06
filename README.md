@@ -9,19 +9,19 @@
 ## Django
 In this directory and highly recommended in a Python virtual environment, run
 
-# Install dependencies
+### Install dependencies
 
     $ pip install -r requirements/local.pip
 
-# Create the database tables and initial data
+### Create the database tables and initial data
 we are using because we using django session that store at db but don't worry we using `sqlite`.
 
     $ python manage.py migrate
 
-# Start the application
+### Start the application
 
     $ python manage.py runserver
 
-# API Documentation
+### API Documentation
 
     https://documenter.getpostman.com/view/869878/SWLe8oWc
